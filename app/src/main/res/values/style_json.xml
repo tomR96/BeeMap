@@ -1,0 +1,189 @@
+<resources>
+    <string name="style_json">
+          [
+    {
+      \"featureType\": \"poi.business\",
+      \"elementType\": \"all\",
+      \"stylers\": [
+        {
+          \"visibility\": \"off\"
+        }
+      ]
+    },
+    {
+      \"featureType\": \"transit\",
+      \"elementType\": \"labels.icon\",
+      \"stylers\": [
+        {
+          \"visibility\": \"off\"
+        }
+      ]
+    },
+        {
+        \"featureType\": \"all\",
+        \"elementType\": \"geometry\",
+        \"stylers\": [
+        {
+        \"color\": \"#FFFF00\"
+        }
+        ]
+        },
+        {
+        \"featureType\": \"administrative\",
+        \"elementType\": \"labels.text.fill\",
+        \"stylers\": [
+        {
+        \"color\": \"#000000\"
+        }
+        ]
+        },
+        {
+        \"featureType\": \"administrative.locality\",
+        \"elementType\": \"labels.text.fill\",
+        \"stylers\": [
+        {
+        \"color\": \"#000000\"
+        }
+        ]
+        },
+        {
+        \"featureType\": \"poi\",
+        \"elementType\": \"labels.text.fill\",
+        \"stylers\": [
+        { "visibility": "off" }
+        ]
+        },
+        {
+        \"featureType\": \"poi.park\",
+        \"elementType\": \"geometry\",
+        \"stylers\": [
+        {
+        \"color\": \"#FFFF00\"
+        }
+        ]
+        },
+        {
+        \"featureType\": \"poi.park\",
+        \"elementType\": \"labels.text.fill\",
+        \"stylers\": [
+        {
+        \"color\": \"#000000\"
+        }
+        ]
+        },
+         {
+    "featureType": "road",
+    "elementType": "labels",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },
+        {
+        \"featureType\": \"road\",
+        \"elementType\": \"geometry.fill\",
+        \"stylers\": [
+        { "visibility": "off" }
+        ]
+        },
+        {
+        \"featureType\": \"road\",
+        \"elementType\": \"labels.text.fill\",
+        \"stylers\": [
+        { "visibility": "off" }
+        ]
+        },
+        {
+        \"featureType\": \"road.arterial\",
+        \"elementType\": \"geometry.fill\",
+        \"stylers\": [
+        { "visibility": "off" }
+        ]
+        },
+        {
+        \"featureType\": \"road.arterial\",
+        \"elementType\": \"geometry.stroke\",
+        \"stylers\": [
+        { "visibility": "off" }
+        ]
+        },
+        {
+        \"featureType\": \"road.highway\",
+        \"elementType\": \"geometry.fill\",
+        \"stylers\": [
+        { "visibility": "off" }
+        ]
+        },
+        {
+        \"featureType\": \"road.highway\",
+        \"elementType\": \"geometry.stroke\",
+        \"stylers\": [
+        { "visibility": "off" }
+        ]
+        },
+        {
+        \"featureType\": \"road.highway\",
+        \"elementType\": \"labels.text.fill\",
+        \"stylers\": [
+        { "visibility": "off" }
+        ]
+        },
+        {
+        \"featureType\": \"road.local\",
+        \"elementType\": \"geometry.fill\",
+        \"stylers\": [
+       { "visibility": "off" }
+        ]
+        },
+        {
+        \"featureType\": \"road.local\",
+        \"elementType\": \"geometry.stroke\",
+        \"stylers\": [
+        { "visibility": "off" }
+        ]
+        },
+        {
+        \"featureType\": \"transit\",
+        \"elementType\": \"geometry\",
+        \"stylers\": [
+        { "visibility": "off" }
+        ]
+        },
+        {
+        \"featureType\": \"transit.station\",
+        \"elementType\": \"labels.text.fill\",
+        \"stylers\": [
+        {
+        \"color\": \"#000000\"
+        }
+        ]
+        },
+        {
+        \"featureType\": \"water\",
+        \"elementType\": \"geometry\",
+        \"stylers\": [
+        {
+        \"color\": \"#17263c\"
+        }
+        ]
+        },
+        {
+        \"featureType\": \"water\",
+        \"elementType\": \"labels.text.fill\",
+        \"stylers\": [
+        {
+        \"color\": \"#000000\"
+        }
+        ]
+        },
+        {
+        \"featureType\": \"water\",
+        \"elementType\": \"labels.text.stroke\",
+        \"stylers\": [
+        {
+        \"lightness\": -20
+        }
+        ]
+        }
+        ]
+    </string>
+</resources>
