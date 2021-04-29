@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "BeeMapTest"
+rootProject.name = "My Application"

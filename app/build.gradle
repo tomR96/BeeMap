@@ -7,18 +7,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        // ...
-        // Set the properties within `local.properties` into a `Properties` class so that values
-        // within `local.properties` (e.g. Maps API key) are accessible in this file.
-        Properties properties = new Properties()
-        if (rootProject.file("local.properties").exists()) {
-            properties.load(rootProject.file("local.properties").newDataInputStream())
-        }
-
-        // Inject the Maps API key into the manifest
-        manifestPlaceholders = [ mapsApiKey : properties.getProperty("MAPS_API_KEY", "") ]
-
-        applicationId "com.example.beemaptest"
+        applicationId "com.example.myapplication"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
